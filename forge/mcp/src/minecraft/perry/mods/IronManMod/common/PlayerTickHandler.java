@@ -54,7 +54,7 @@ public class PlayerTickHandler implements ITickHandler
 		
 		if (player.inventory.armorInventory[0] != null)
 		{
-			if (player.inventory.armorInventory[0].getItem() instanceof ItemIronManBoots)
+			if (player.inventory.armorInventory[0].getItem() instanceof ItemIronManBoots == true)
 			{
 				
 				player.capabilities.allowFlying = true;
